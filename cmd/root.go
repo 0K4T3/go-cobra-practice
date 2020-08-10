@@ -23,3 +23,7 @@ func Execute() {
         os.Exit(1)
     }
 }
+
+func SetArgs(args []string) {
+    rootCmd.SetArgs(args)
+}
